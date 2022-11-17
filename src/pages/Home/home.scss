@@ -1,0 +1,27 @@
+.home {
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .searchRow {
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 60px;
+        background: rgba(256, 256, 256, 0.12);
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        border-radius: 0px 0px 12px 12px;
+        box-sizing: border-box;
+    }
+}

@@ -1,0 +1,36 @@
+.comment {
+    display: flex;
+    margin-bottom: 40px;
+
+    .commentAvatar {
+        width: 50px;
+        height: 50px;
+        background: rgba(256, 256, 256, 0.12);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .commentText {
+        background: rgba(256, 256, 256, 0.12);
+        border-radius: 12px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        width: fit-content;
+
+        p {
+            margin: 0;
+            color: white;
+        }
+    }
+}
